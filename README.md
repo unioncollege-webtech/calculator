@@ -9,11 +9,9 @@ Exercise your DOM skills to build functional calculator with JavaScript.
 Description
 -----------
 
-Use DOM methods to create functional calculator. 
-
-A functional calculator has buttons for the numbers 0–9 as well as for some
-basic operators for addition (+), subtraction (-), multiplication (* or x),
-division (/), and equals (=).
+Use DOM methods to create functional calculator that has buttons for the numbers
+0–9 as well as for some basic operators for addition (+), subtraction (-), 
+multiplication (* or x), division (/), and equals (=).
 
 In addition to those buttons, the calculator should have a display which 
 displays the numbers or operators pressed by the user. When the user presses
@@ -27,7 +25,8 @@ and [`document.body.appendChild(element)`][node.appendChild]
 to add them to the page. Use [`element.addEventListener`][element.addEventListener]
 to listen to 'click' events on the buttons. When the 'click' event fires, update
 the display and/or evaluate the math expression based on the button that was 
-clicked (see [event.currentTarget] or [event.target]).
+clicked (see [`event.currentTarget`][event.currentTarget] or
+[`event.target`][event.target]).
 
 Almost any element could be used for the calculator's display. An [`input`][input]
 would work well, but it could just as well be [`div`][div], [`span`][span], or
