@@ -18,8 +18,8 @@ displays the numbers or operators pressed by the user. When the user presses
 equals (=), the calculator should evaluate the math expression and update the
 display with the result.
 
-For this exercise, create *and style* a basic functional calculator purely with
-JavaScript using the [DOM API]. Use [`document.createElement(tagname)`][document.createElement]
+For this exercise, create a basic functional calculator purely with
+JavaScript using the [DOM API], and style it using CSS. Use [`document.createElement(tagname)`][document.createElement]
 to create the [`button` elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
 and [`document.body.appendChild(element)`][node.appendChild]
 to add them to the page. Use [`element.addEventListener`][element.addEventListener]
@@ -35,6 +35,13 @@ would work well, but it could just as well be [`div`][div], [`span`][span], or
 If you use the `input` element, use the [`value`][input.value] property to 
 update the display. If you use any other element the [`textContent`][textContent]
 property should be used.
+
+### DOM methods
+
+This exercise is intended for you to become familiar with the DOM API. Try to
+build the entire user interface for the calculator using only JavaScript. I will
+accept *some* static content in index.html, but the buttons and display for the
+calculator interface should be created using DOM methods.
 
 ### Evaluating the result
 
